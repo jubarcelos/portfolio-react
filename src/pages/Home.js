@@ -12,7 +12,7 @@ class Home extends Component {
                 <div className="col-lg-8 col-xl-7 col-xxl-6">
                   <div className="my-5 text-center text-xl-start">
                     <h1 className="display-5 fw-bolder text-white mb-2">
-                      Tryberfólio | Meus Projetos
+                       Projetos
                     </h1>
                     <p className="lead fw-normal text-white-50 mb-4">
                       Quickly design and customize responsive mobile-first sites with
@@ -103,19 +103,19 @@ class Home extends Component {
                 <div className="col-lg-10 col-xl-7">
                   <div className="text-center">
                     <div className="fs-4 mb-4 fst-italic">
-                      "Frase Motivacional ... alguém lembra alguma???"
+                      "The caterpillar doesn't need a miracle to become a butterfly, it goes through a process. You need to trust the processes you choose and follow in them."
                     </div>
                     <div className="d-flex align-items-center justify-content-center">
                       <img
                         className="rounded-circle me-3"
                         src={ Julia }
-                        alt="..."
-                        width="150"
+                        alt="Julia Barcelos"
+                        width="120"
                       />
                       <div className="fw-bold">
-                        Matheus "Matheusao" Domingos
+                        Julia (Jujuba) Barcelos
                         <span className="fw-bold text-success mx-1">/</span>
-                        Pessoa Instrutora
+                        Desenvolvedora Web Jr
                       </div>
                     </div>
                   </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import logo from '../assets/images/JuliaBarcelos.jpeg';
+import { NavLink } from 'react-router-dom';
+import NavBar from '../css/NavBar.css'
 
 export default class Navbar extends Component {
   render() {
@@ -21,19 +21,29 @@ export default class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" href="index.html">
+              <NavLink
+                  className="nav-link"
+                  exact to="/"
+                  activeClassName="selected"
+                >
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="about.html">
+                <NavLink 
+                  className="nav-link" 
+                  exact to="/about"
+                  activeClassName="selected">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="/">
+                <NavLink
+                  className="nav-link "
+                  exact to="/portfolio"
+                  activeClassName="selected">
                   Portfolio
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

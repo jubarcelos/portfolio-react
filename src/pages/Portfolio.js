@@ -1,5 +1,5 @@
-import '../css/styles.css';
-// import logo from './assets/images/topsecret.png';
+import React from 'react';
+import photo from '../assets/images/JuliaBarcelos.jpeg';
 
 function Portfolio() {
   return (
@@ -16,7 +16,7 @@ function Portfolio() {
                 <div className="position-relative mb-5">
                   <img
                     className="img-fluid rounded-3 mb-3"
-                    src="https://dummyimage.com/600x400/343a40/6c757d"
+                    src={photo}
                     alt="..."
                   />
                   <a
@@ -81,7 +81,7 @@ function Portfolio() {
               Let's build something together
             </h2>
             <a className="btn btn-lg btn-primary" href="#!">
-              Contact us
+              Contact me
             </a>
           </div>
         </section>

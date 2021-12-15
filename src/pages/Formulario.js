@@ -1,4 +1,3 @@
-import './css/styles.css';
 import logo from './assets/images/topsecret.png';
 
 function Formulario() {

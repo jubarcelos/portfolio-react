@@ -3,3 +3,12 @@
   left: 200%;
   background-image: url(https://dummyimage.com/600x400/343a40/6c757d);
 }
+
+.Iam {
+  color: Black;
+  border-right: 2px, green;
+  font-family:monospace;
+  font-size: 2.3em;
+  white-space: nowrap;
+  overflow: hidden;
+}

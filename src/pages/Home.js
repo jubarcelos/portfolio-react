@@ -4,7 +4,7 @@ import '../css/Home.css';
 import '../css/NavBar.css';
 import '../css/TimeLine.css';
 import BlogPage from '../components/BlogPage';
-import julia from '../assets/images/JuliaBarcelos.jpeg';
+import julia from '../assets/images/julia.jpeg';
 import TimeLineHardSkills from '../components/TimeLineHardSkills';
 
 
@@ -39,7 +39,7 @@ class Home extends Component {
                 </div>
                 <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
                   <img width="250"
-                    className="img-fluid rounded-3 my-5"
+                    className="imagecircle"
                     src={ julia }
                     alt="Julia"
                   />
@@ -83,7 +83,7 @@ class Home extends Component {
           {/* Blog preview section */ }
           { <BlogPage /> }
           {/* Call to action */ }
-          <aside className="bg-success p-4 p-sm-5 mt-5 black-gradient">
+          {/* <aside className="bg-success p-4 p-sm-5 mt-5 black-gradient">
             <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
               <div className="mb-4 mb-l-0">
                 <div className="fs-2 fw-bold text-white">
@@ -92,7 +92,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-          </aside>
+          </aside> */}
         </main >
       </>
     )

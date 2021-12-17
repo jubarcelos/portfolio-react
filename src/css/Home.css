@@ -39,3 +39,9 @@
 .black-gradient {
   background: linear-gradient(  rgb(63, 114, 83), rgb(26, 27, 27));
 }
+
+.imagecircle {
+  border-radius:50%;
+  width: 300px;
+  height: 300px;
+}

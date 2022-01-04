@@ -4,7 +4,7 @@ class TimeLineHardSkills extends Component {
   render() {
     return (
       <div class="grid">
-        <div className="item item1" ></div>
+        <div className="item item1" > </div>
         <div className="item item2" >
           <div className=" learning bg-success bg-gradient text-white rounded-3 mb-3">
             <i className="bi bi-grid-1x2-fill"></i>

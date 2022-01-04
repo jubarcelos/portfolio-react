@@ -1,5 +1,4 @@
 import React from 'react';
-import photo from '../assets/images/JuliaBarcelos.jpeg';
 
 function Portfolio() {
   return (
@@ -16,7 +15,7 @@ function Portfolio() {
                 <div className="position-relative mb-5">
                   <img
                     className="img-fluid rounded-3 mb-3"
-                    src={photo}
+                    src="https://dummyimage.com/600x400/343a40/6c757d"
                     alt="..."
                   />
                   <a
@@ -80,7 +79,7 @@ function Portfolio() {
             <h2 className="display-4 fw-bolder mb-4">
               Let's build something together
             </h2>
-            <a className="btn btn-lg btn-primary" href="#!">
+            <a className="btn btn-lg btn-primary" href="http://wa.me/55048991222729" target="blank">
               Contact me
             </a>
           </div>

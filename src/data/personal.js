@@ -1,4 +1,4 @@
-const data = [
+const personal = [
   {
     name: 'Julia Barcelos',
     occupation: 'Desenvolvedora Jr',
@@ -8,4 +8,4 @@ const data = [
   },
 ]
 
-export default data;
+export default personal;

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import ExperienceTimeLine from './pages/ExperienceTimeLine';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path='/' component={ Home } />
         <Route exact path='/about' component={ About } />
         <Route exact path='/portfolio' component={ Portfolio } />
+        <Route exact path='/experiences' component={ ExperienceTimeLine } />
         {/* <Route path='/:id' render={ () => 'apareceu'} /> */}
         <Route path='/*' component={ Home } />
       </Switch>

@@ -11,13 +11,13 @@ function Footer() {
             </div>
           </div>
           <div className="col-auto">
-            <a className="link-light small" href="#!">
+            {/* <a className="link-light small" href="#!">
               Privacy
             </a>
             <span className="text-white mx-1">&middot;</span>
             <a className="link-light small" href="#!">
               Terms
-            </a>
+            </a> */}
             <span className="text-white mx-1">&middot;</span>
             <a className="link-light small" href="#!">
               Contact

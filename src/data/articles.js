@@ -1,0 +1,42 @@
+const articles = [
+  {
+    id: 1,
+    active: true,
+    type: 'Introduction',
+    cape: 'https://res.cloudinary.com/practicaldev/image/fetch/s--vh7fQxkV--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a3ikuo6v2vfmyxfyq1ex.png',
+    capeDescription: 'code joke eat sleep and code',
+    webpage: 'https://dev.to/jubarcelos/hello-everyone-6o',
+    title: 'Hello everyone!',
+    resume: 'A text about myself. Some personal information and introduce my interest with this channel.',
+    writer: 'Julia Barcelos',
+    publishedDate: 'December 17, 2021',
+    timeToRead: '1 min read',
+  },
+  {
+    id: 2,
+    active: true,
+    type: 'News',
+    cape: 'https://res.cloudinary.com/practicaldev/image/fetch/s--4MAhbzul--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/03i7qhji8fssdgd63ufa.png',
+    capeDescription: 'React-router-dom symbol',
+    webpage: 'https://dev.to/jubarcelos/react-router-dom-6-what-changed-4a8',
+    title: 'React-Router-dom 6! What changed?',
+    resume: 'The react router had updated from v5 into v6.',
+    writer: 'Julia Barcelos',
+    publishedDate: 'December 22, 2021',
+    timeToRead: '7 min read',
+  },
+  {
+    id: 3,
+    active: true,
+    type: 'Reflection',
+    cape: 'https://res.cloudinary.com/practicaldev/image/fetch/s--tIwtRjmw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n4sqy44413xferpuchc0.png',
+    capeDescription: 'woman using a computer',
+    webpage: 'https://dev.to/jubarcelos/end-year-philosophy-5c5h',
+    title: 'Look yourself',
+    resume: 'What are you compromising with your personal development?',
+    writer: 'Julia Barcelos',
+    publishedDate: 'December 31, 2021',
+    timeToRead: '3 min read',
+  }
+]
+export default articles;

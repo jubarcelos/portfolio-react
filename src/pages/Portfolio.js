@@ -20,9 +20,9 @@ function Portfolio() {
                   />
                   <a
                     className="h3 fw-bolder text-decoration-none link-dark stretched-link"
-                    href="#!"
+                    href="https://jubarcelos.github.io/solarsystem/" target="blank"
                   >
-                    Project name
+                    Solar System
                   </a>
                 </div>
               </div>
@@ -35,9 +35,9 @@ function Portfolio() {
                   />
                   <a
                     className="h3 fw-bolder text-decoration-none link-dark stretched-link"
-                    href="#!"
+                    href="https://jubarcelos.github.io/shoppingCart/" target="blank"
                   >
-                    Project name
+                    Simple Shopping Cart
                   </a>
                 </div>
               </div>
@@ -45,14 +45,14 @@ function Portfolio() {
                 <div className="position-relative mb-5 mb-lg-0">
                   <img
                     className="img-fluid rounded-3 mb-3"
-                    src="https://dummyimage.com/600x400/343a40/6c757d"
+                    src="https://dummyimage.com/600x400/343a40/6c757d" target="blank"
                     alt="..."
                   />
                   <a
                     className="h3 fw-bolder text-decoration-none link-dark stretched-link"
-                    href="#!"
+                    href="https://jubarcelos.github.io/toDoList/" target="blank"
                   >
-                    Project name
+                    Simple To Do List
                   </a>
                 </div>
               </div>
@@ -65,9 +65,9 @@ function Portfolio() {
                   />
                   <a
                     className="h3 fw-bolder text-decoration-none link-dark stretched-link"
-                    href="#!"
+                    href="https://jubarcelos.github.io/pixels-art/" target="blank"
                   >
-                    Project name
+                    Pixel Arts
                   </a>
                 </div>
               </div>

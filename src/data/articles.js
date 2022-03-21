@@ -37,6 +37,19 @@ const articles = [
     writer: 'Julia Barcelos',
     publishedDate: 'December 31, 2021',
     timeToRead: '3 min read',
+  },
+  {
+    id: 4,
+    active: true,
+    type: 'Tech tip',
+    cape: 'https://res.cloudinary.com/practicaldev/image/fetch/s--QUCgY-qx--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d3v81qoy5f5juiqyqh4e.png',
+    capeDescription: 'trello',
+    webpage: 'https://dev.to/jubarcelos/trello-tips-4mfn',
+    title: 'Trello tips',
+    resume: 'Are you re-writing in Trello?',
+    writer: 'Julia Barcelos',
+    publishedDate: 'January 18, 2022',
+    timeToRead: '3 min read',
   }
 ]
 export default articles;

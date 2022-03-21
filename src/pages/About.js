@@ -1,5 +1,5 @@
 import React from 'react';
-import Iam from '../assets/images/Iam.png';
+import Iam from '../assets/images/myCode.png';
 import Bruce from '../assets/images/Bruce.jpg';
 import '../css/Home.css';
 import '../css/About.css';
@@ -21,14 +21,13 @@ class About extends React.Component {
                 <h1 className="Iam typing-animation">  Who I'm...</h1>
                 <img
                   className="img-fluid rounded mb-5 mb-lg-0"
-                  width="300px"
+                  width="250px"
                   src={ world }
                   alt="girl hold the world"
                 />
                 </div>
-                <div className="col-lg-8">
+                <div className="img-ju col-lg-8">
                   <img className="img-fluid rounded mb-5 mb-lg-0"
-                  width="750px"
                   src={ Iam }
                   alt="a code, with a object with personal information"
                   />

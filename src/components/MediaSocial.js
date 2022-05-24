@@ -25,7 +25,7 @@ class MediaSocial extends Component {
               <a href="https://twitter.com/juliasbarcelos1" target="blank"><h1><i class="bi bi-twitter"></i></h1></a >
             </div>
             <div className="fst-italic text-muted">
-              <a href="http://wa.me/55048991222729" target="blank"><h1><i class="bi bi-whatsapp text-dark"></i></h1></a>
+              <a id="#contact" href="http://wa.me/55048991222729" target="blank"><h1><i class="bi bi-whatsapp text-dark"></i></h1></a>
             </div>
           </div>
         </div>

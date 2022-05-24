@@ -7,7 +7,7 @@ function Footer() {
         <div className="row align-items-center justify-content-between flex-column flex-sm-row">
           <div className="col-auto">
             <div className="small m-0 text-white">
-              Copyright &copy; Your Website 2021
+              Copyright &copy; Julia Barcelos 2021
             </div>
           </div>
           <div className="col-auto">
@@ -19,7 +19,7 @@ function Footer() {
               Terms
             </a> */}
             <span className="text-white mx-1">&middot;</span>
-            <a className="link-light small" href="#!">
+            <a className="link-light small" href="http://wa.me/55048991222729" target="blank">
               Contact
             </a>
           </div>

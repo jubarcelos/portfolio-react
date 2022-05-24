@@ -1,20 +1,53 @@
+.knowledge {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  padding-left: 30px;
+  border-left: 1px solid;
+  margin: 10%;
+}
+
+
+.learning {
+display: none;
+}
+
+.timeline {
+  padding: auto;
+  margin: 5%;
+}
+
+
 @media screen and (min-width:768px){
+  .learning {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.3rem;
+    padding: 10%;
+  }
+
+  .item {
+    border: none;
+    margin: 0;
+  }
+
   .grid {
+    padding-top: 10%;
     display: grid;
     grid-gap: 0;
     margin: 10px;
-    /* 
-    grid-template-areas: "one one" "two four" "three four";
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 250px;
-    */
+
     grid: "one two" 250px 
           "three four" 250px 
-          "five  six" 50px
-          "seven  eight"
-          "nine  ten"
-          / 5fr 5fr;
+          "five  six" 250px
+          / 6fr 6fr;
   }
+
   .item1 {
     grid-area: one;
     padding-top: 30px;
@@ -38,6 +71,7 @@
   
   .item5 {
     grid-area: five;
+    padding-bottom: 5%;
   }
   
   .item6 {
@@ -45,35 +79,4 @@
     padding-left: 30px;
     border-left: 1px solid;
   }
-  
-  .item7 {
-    grid-area: seven;
-  }
-  
-  .item8 {
-    grid-area: eight;
-    padding-left: 30px;
-    border-left: 1px solid;
-
-  }
-
-  .item9 {
-    grid-area: nine;    
-  }
-
-  .item10 {
-    grid-area: ten;
-    padding-left: 30px;
-    border-left: 1px solid;
-  }
-}
-
-.learning {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  width: 3rem;
-  font-size: 1.3rem;
-  padding: 10%;
 }

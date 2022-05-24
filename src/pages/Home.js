@@ -5,7 +5,7 @@ import '../css/NavBar.css';
 import '../css/TimeLine.css';
 import BlogPage from '../components/BlogPage';
 import TimeLineHardSkills from '../components/TimeLineHardSkills';
-import process from '../assets/images/process.png';
+// import process from '../assets/images/process.png';
 import me from '../assets/images/me.png';
 
 
@@ -50,13 +50,13 @@ class Home extends Component {
             </div>
           </header>
           {/* Learning section */ }
-          <section className="py-5" id="features">
-            <div className="container px-5 my-5">
-              <div className="row gx-5">
+          <section className="timeline" id="features">
+            <div className="container px-5 my-4">
+              <div className="row gx-6">
                 <div className="col-lg-4">
                   <h2 className="fw-bolder mb-0">A better way to build something is start.</h2>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-6 row gx-6">
                   <TimeLineHardSkills />
                 </div>
               </div>
@@ -72,7 +72,7 @@ class Home extends Component {
                       <div className="fw-bold">
                         Julia Barcelos
                        <span className="fw-bold text-success mx-1">/</span>
-                        Desenvolvedora Web Jr
+                        Fullstack developer
                       </div>
                     </div>
                     <div className="fs-5 mb-5 fst-italic text-white">
